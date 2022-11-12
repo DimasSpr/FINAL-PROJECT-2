@@ -296,6 +296,7 @@ color: #234CAD;
 /* CARD 2 */
 .card-2{
     margin-top: 30px;
+    margin-left: -100px;
     position: absolute;
     height: 90px;
     width: 300px;
@@ -700,10 +701,10 @@ color: #234CAD;
 }
 .section-product-1{
     height: 575px;
-width: 1015px;
-left: 213px;
-top: 1175px;
-border-radius: 0px;
+    width: 1015px;
+    left: 213px;
+    top: 1175px;
+    border-radius: 0px;
 
 }
 /* Card 1 */
@@ -771,11 +772,10 @@ border-radius: 0px;
 }
 .text-content p{
     font-size: 16px;
-     margin-top: 25px;
-     width: 300px;
-     margin-right: 20px;
+     margin-top: 30px;
+     text-align: right;
      margin-left: 0;
-
+     color: #234CAD;
 }
 .btn-text-content{
     color: #234CAD;
@@ -901,7 +901,6 @@ font-weight: 700;
 color: #234CAD;
 }
 .information-3 p {
-    font-family: Nunito;
 font-size: 9px;
 font-weight: 400;
 color: #234CAD;
@@ -928,6 +927,519 @@ top: 1900px;
 border-radius: 0px;
 margin-top: 150px;
 }
+.section-text-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-content h1{
+    font-family: Nunito;
+    font-size: 30px;
+    font-weight: 700;
+    width: 500px;
 
-
+}
+.text-content p{
+    text-align: center;
+    width: 400px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.ui-components-product-ft-2{
+    height: 575px;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 1110px;
+    border-radius: 60px;
+    background: #F2F6FF;
+}
+.card-1-ft-2{
+    margin-left: 107px;
+    padding-top: 270px;
+}
+.card-1-content-ft-2 {
+    justify-items: center;
+    align-items: center;
+    height: 100px;
+    width: 350px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    padding: 20px;
+}
+.icon-card-1{
+    height: 60px;
+    width: 60px;
+    left: 127px;
+    top: 523px;
+    border-radius: 50%;
+    background: #F2F6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.information-text-content-card-1{
+    padding-left: 20px;
+    padding-top: 28px;
+}
+.information-text-content-card-1 h3{
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    height: 15px;
+    text-align: left;
+    color: #234CAD;
+}    
+.information-text-content-card-1 p{
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;    
+}
+.icon-card-2-ft-2{
+    margin-left: 270px;
+    margin-top: 40px;
+    height: 75px;
+    width: 75px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+/* card 3 */
+.icon-card-3-ft-2 {
+    height: 75px;
+    width: 75px;
+    left: 482px;
+    top: 288px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+    margin-left: 25px;    
+}
+/* end card 3 */
+/* CARD 4 */
+.card-4-content-ft-2{
+    height: 160px;
+    width: 276px;
+    border-radius: 25px;
+    background: #FFFFFF; 
+    margin-top: 25px;
+    margin-left: 25px;   
+}
+.card-4-item-ft-2{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.icon-card-4-ft-2{
+    height: 60px;
+    width: 60px;
+    left: 502px;
+    top: 408px;
+    border-radius: 50%;
+    background: #F2F6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #234CAD;    
+}
+.text-content-card-4-ft-2{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.text-content-card-4-ft-2 h3 {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;
+    
+}
+.text-content-card-4-ft-2 p {
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD; 
+    margin-top: -5px;   
+}
+.meeting-parcitipans-card-4-ft-2{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.person-1-mp{
+    height: 40px;
+    width: 40px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    background: #F2F6FF;
+}
+.person-1-mp p{
+    padding: 13px;
+    font-family: Nunito;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;    
+    color: #234CAD;
+    
+}
+.person-2-mp {
+    margin-left: -10px;
+    border: 2px solid #FFFFFF;
+    height: 42px;
+    width: 42px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    background: #F2F6FF;
+}
+.person-2-mp p{
+    padding: 13px;
+    font-family: Nunito;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;    
+    color: #234CAD;
+}
+.person-3-mp {
+    margin-left: -10px;
+    border: 2px solid #FFFFFF;
+    height: 42px;
+    width: 42px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    background: #F2F6FF;
+}
+.person-3-mp p{
+    padding: 13px;
+    font-family: Nunito;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;    
+    color: #234CAD;
+}
+.other-people-mp {
+    margin-left: -10px;
+    border: 2px solid #FFFFFF;
+    height: 42px;
+    width: 42px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    background: #F2F6FF;
+}
+.other-people-mp p{
+    padding: 13px;
+    font-family: Nunito;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;    
+    color: #234CAD;
+}
+/* end card 4 */
+/* card 5 */
+.card-5-content-ft-2{
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 100px;
+    width: 350px;
+    left: 482px;
+    top: 573px;
+    border-radius: 20px;
+    background: #FFFFFF;    
+}
+.person-initials-card-5 {
+    height: 60px;
+    width: 60px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #F2F6FF;    
+}
+.person-initials-card-5 h3 {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;
+    padding: 18px;    
+}
+.notifikasion-card-5 {
+    height: 16px;
+    margin-top: 20px;
+    margin-left: -15px;
+    width: 16px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: #234CAD;
+    color: #FFFFFF;    
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.notifikasion-card-5 p{
+    padding-left: 6px;
+    padding-top: 4px;
+    display: flex;
+    align-items: center;
+    font-family: Nunito;
+    font-size: 6px;
+    font-weight: 700;
+    line-height: 8px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+.text-content-card-5{
+    padding-top: 28px;
+}
+.information-card-5 h3{
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: -1px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;
+    
+}
+.information-card-5 p{
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;    
+}
+.time-card-5 {
+    padding-top: 28px;
+    margin-right: 20px;
+    font-family: Nunito;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;    
+}
+/* end card 5 */
+/* card 6 */
+.card-6-content-ft-2 {
+    height: 160px;
+    width: 130px;
+    left: 482px;
+    top: 698px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.stroke-card-6{
+    height: 70px;
+    width: 70px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    border-right: 3px solid #234CAD;
+    border-bottom: 3px solid #234CAD;
+}
+.proggres-card-6 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+     background: #F2F6FF;
+     display: flex;
+     align-items: center;
+     margin-top: -60px;
+     justify-content: center;
+}
+.text-content-card-6 {
+    margin-top: 20px;
+}
+.text-content-card-6 p {
+    font-family: Nunito;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;    
+}
+/* end card 6 */
+/* card 7 */
+.card-7-content-ft-2{
+    height: 100px;
+    width: 350px;
+    left: 583px;
+    top: 263px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    margin-left: -250px;
+    margin-top: 30px;    
+}
+.persons-initials-card-7 {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 60px;
+    width: 60px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    background: #F2F6FF;    
+}
+.persons-initials-card-7 p{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;   
+    padding: 18px; 
+}
+.notifikasion-card-7-ft-2 {
+    height: 16px;
+    margin-left: -15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 16px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;    
+    background: #234CAD;
+}
+.notifikasion-card-7-ft-2 p{
+    font-family: Nunito;
+    padding-top: 4px;
+    padding-left: 6px;
+    font-size: 6px;
+    font-weight: 700;
+    line-height: 8px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;    
+}
+.information-card-7 {
+    margin-top: 28px;
+}
+.information-card-7 h3 {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;    
+}
+.information-card-7 p {
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;
+    margin-top: -7px;    
+}
+.time-card-7 {
+    margin-top: 28px;
+    margin-right: 20px;
+}
+.time-card-7 p{
+    font-family: Nunito;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;    
+}
+/* end card 7 */
+/* card 8 */
+.card-8-content-ft-2 {
+    height: 100px;
+    width: 300px;
+    left: 783px;
+    top: 388px;
+    margin-top: 25px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    margin-left: -50px;    
+}
+.icon-card-8-ft-2 {
+    margin-top: 31px;
+    margin-left: 20px;
+    height: 46px;
+    width: 46px;
+    left: 803px;
+    top: 419px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #F2F6FF;    
+}
+.stroke-card-8-ft-2{
+    height: 70px;
+    width: 70px;
+    background: #FFFFFF;
+    border-right: 2px solid #234CAD;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: -60px;
+    margin-right: 20px;
+     
+}
+.text-content-card-8 {
+    margin-top: 32px;
+}
+.text-content-card-8 h3{
+    font-family: Basic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;    
+}
+.text-content-card-8  p{
+    margin-top: -5px;
+    font-family: Basic;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;    
+}
+/* end card 8 */
 /*---------------- END TEXT CENTER------------------------*/
