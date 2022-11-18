@@ -32,7 +32,61 @@
     border-radius: 30px;
 }  
 /*----------------BANNER------------------------*/
+.popup-about{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+    top: -0px;
+    left: -5px;
 
+}
+.popup-about-content{
+    color: white;
+    height: 450px;
+    width: 650px;
+    background: #234CAD;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+}
+.close-about{
+    position: absolute;
+    left: 600px;
+
+    cursor: pointer;
+}
+.popup-item {
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+.popup-img img {
+    width: 154px;
+    height: 209px;
+    border-radius: 10px;
+}
+.popup-text {
+    color: white;
+    height: 150px;
+    width: 400px;
+}
+.popup-text p {
+    padding: 5px;
+}
+.popup-description{
+    color: white;
+    position: absolute;
+    width: 540px;
+    top:150px;
+    height: 110px;
+}
+.popup-description p{
+    font-size: 15px;
+}
 #banner-container{
     margin-top: 50px;
     height: 500px;
@@ -401,227 +455,6 @@ color: #234CAD;
     height: 27px;
     width: 29px;
 }
-
-/* RESPONSIVE BANNER */
-
-@media only screen and (max-width: 600px) {
-    #banner-container{
-        background: #F2F6FF;
-        height: 300px;
-        width: 450px;
-    }
-    .col-md-5 h1{
-        width:300px;
-        font-size: 20px;
-    }
-    .col-md-5 p{
-        font-size: 10px;
-        padding-right: 50px;
-    }
-    .col-md-5 button{
-        width: 100px;
-        height: 40px;
-        font-size: 10px;
-    }
-    /* item 1 */
-    /* item 2 */
-    .icon-first{
-        display: none;
-    }
-    .icon-second{
-        display: none;
-    }
-    .item-first{
-        background: none;
-    }
-    .text-second{
-        display: none; 
-    }
-    /* item 3 */
-    .item-second{
-        background: none;
-    }
-    .icon-three{
-        display: none;
-    }
-    .text-three{
-        display: none;
-    }
-    /* item 4 */
-    .item-three{
-        background: none;
-        display: none;
-    }
-    .icon-four{
-        display: none;
-    }
-    .icon-number{
-        display: none;
-    }
-    .text-four{
-        display: none;
-    }
-    .icon-clock{
-        display: none;
-    }
-    .person-1{
-        display: none;
-        background: none;
-    }
-    .person-2{
-        display: none;
-        background: none;
-    }
-    .person-3{
-        display: none;
-        background: none;
-    }
-    .person-4{
-        display: none;
-        background: none;
-    }
-    /* CARD 4 */
-    .card-4{
-        display: none;
-    }
-    /* CARD 2 */
-    .card-2{
-        background: none;
-    }
-    .icon-card-2{
-        display: none;
-    }
-    .icon-number-card-2{
-        display: none;
-    }
-    .text-card-2{
-        display: none;
-    }
-    .icon-clock-card-2{
-        display: none;
-    }
-    /* CARD 8 */
-    .icon-card-8{
-        display: none;
-    }
-    .text-card-8{
-        display: none;
-    }
-    .card-6{
-        display: none;
-    }
-}
-@media only screen and (max-width: 1200px) {
-    #banner-container{
-        background: #F2F6FF;
-        height: 300px;
-        width: 100%;
-    }
-    .col-md-5 h1{
-        width:300px;
-        font-size: 20px;
-    }
-    .col-md-5 p{
-        font-size: 10px;
-        padding-right: 50px;
-    }
-    .col-md-5 button{
-        width: 100px;
-        height: 40px;
-        font-size: 10px;
-    }
-    /* item 1 */
-    /* item 2 */
-    .icon-first{
-        display: none;
-    }
-    .icon-second{
-        display: none;
-    }
-    .item-first{
-        background: none;
-    }
-    .text-second{
-        display: none; 
-    }
-    /* item 3 */
-    .banner-3{
-        background: none;
-    }
-    .item-second{
-        background: none;
-    }
-    .icon-three{
-        display: none;
-    }
-    .text-three{
-        display: none;
-    }
-    /* item 4 */
-    .item-three{
-        background: none;
-        display: none;
-    }
-    .icon-four{
-        display: none;
-    }
-    .icon-number{
-        display: none;
-    }
-    .text-four{
-        display: none;
-    }
-    .icon-clock{
-        display: none;
-    }
-    .person-1{
-        display: none;
-        background: none;
-    }
-    .person-2{
-        display: none;
-        background: none;
-    }
-    .person-3{
-        display: none;
-        background: none;
-    }
-    .person-4{
-        display: none;
-        background: none;
-    }
-    /* CARD 4 */
-    .card-4{
-        display: none;
-    }
-    /* CARD 2 */
-    .card-2{
-        background: none;
-    }
-    .icon-card-2{
-        display: none;
-    }
-    .icon-number-card-2{
-        display: none;
-    }
-    .text-card-2{
-        display: none;
-    }
-    .icon-clock-card-2{
-        display: none;
-    }
-    /* CARD 8 */
-    .icon-card-8{
-        display: none;
-    }
-    .text-card-8{
-        display: none;
-    }
-    .card-6{
-        display: none;
-    }
-}
-/* END RESPONSIVE BANNER */
 /*---------------- END BANNER------------------------*/
 /*----------------SECTION------------------------*/
 .website-elements-section-icon{
@@ -689,6 +522,58 @@ color: #234CAD;
 }
 /*---------------- END SECTION------------------------*/
 /*----------------PRODUCT------------------------*/
+/* pop up text right */
+.popup-text-right{
+    top: 1000px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+    left: -5px;
+
+}
+.popup-text-right-content{
+    color: white;
+    height: 450px;
+    width: 650px;
+    background: #234CAD;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+}
+.close-text-right{
+    position: absolute;
+    left: 600px;
+
+    cursor: pointer;
+}
+.popup-item-text-right {
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+.text-right {
+    color: white;
+    height: 150px;
+    width: 400px;
+}
+.text-right p {
+    padding: 5px;
+}
+.popup-description-text-right{
+    color: white;
+    position: absolute;
+    width: 540px;
+    top:150px;
+    height: 110px;
+}
+.popup-description-text-right p{
+    font-size: 15px;
+}
+/* end pop up text right */
 .website-elements-section-text-right{
     display: flex;
     margin-top: 157px;
@@ -1915,4 +1800,664 @@ margin-top: 150px;
         margin-left: auto;
       
     }
+}
+
+
+/* RESPONSIVE BANNER */
+
+@media only screen and (max-width: 600px) {
+    #banner-container{
+        background: #F2F6FF;
+        height: 300px;
+        width: 450px;
+    }
+    .navbar-toggler{
+        margin-left: -600px;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .col-md-5 h1{
+        width:300px;
+        font-size: 20px;
+    }
+    .col-md-5 p{
+        font-size: 10px;
+        padding-right: 50px;
+    }
+    .col-md-5 button{
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+    /* item 1 */
+    /* item 2 */
+    .icon-first{
+        display: none;
+    }
+    .icon-second{
+        display: none;
+    }
+    .item-first{
+        background: none;
+    }
+    .text-second{
+        display: none; 
+    }
+    /* item 3 */
+    .item-second{
+        background: none;
+    }
+    .icon-three{
+        display: none;
+    }
+    .text-three{
+        display: none;
+    }
+    /* item 4 */
+    .item-three{
+        background: none;
+        display: none;
+    }
+    .icon-four{
+        display: none;
+    }
+    .icon-number{
+        display: none;
+    }
+    .text-four{
+        display: none;
+    }
+    .icon-clock{
+        display: none;
+    }
+    .person-1{
+        display: none;
+        background: none;
+    }
+    .person-2{
+        display: none;
+        background: none;
+    }
+    .person-3{
+        display: none;
+        background: none;
+    }
+    .person-4{
+        display: none;
+        background: none;
+    }
+    /* CARD 4 */
+    .card-4{
+        display: none;
+    }
+    /* CARD 2 */
+    .card-2{
+        background: none;
+    }
+    .icon-card-2{
+        display: none;
+    }
+    .icon-number-card-2{
+        display: none;
+    }
+    .text-card-2{
+        display: none;
+    }
+    .icon-clock-card-2{
+        display: none;
+    }
+    /* CARD 8 */
+    .icon-card-8{
+        display: none;
+    }
+    .text-card-8{
+        display: none;
+    }
+    .card-6{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #banner-container{
+        background: #F2F6FF;
+        height: 300px;
+        width: 100%;
+    }
+    .col-md-5 h1{
+        width:300px;
+        font-size: 20px;
+    }
+    .col-md-5 p{
+        font-size: 10px;
+        padding-right: 50px;
+    }
+    .col-md-5 button{
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+    /* item 1 */
+    /* item 2 */
+    .icon-first{
+        display: none;
+    }
+    .icon-second{
+        display: none;
+    }
+    .item-first{
+        background: none;
+    }
+    .text-second{
+        display: none; 
+    }
+    /* item 3 */
+    .banner-3{
+        background: none;
+    }
+    .item-second{
+        background: none;
+    }
+    .icon-three{
+        display: none;
+    }
+    .text-three{
+        display: none;
+    }
+    /* item 4 */
+    .item-three{
+        background: none;
+        display: none;
+    }
+    .icon-four{
+        display: none;
+    }
+    .icon-number{
+        display: none;
+    }
+    .text-four{
+        display: none;
+    }
+    .icon-clock{
+        display: none;
+    }
+    .person-1{
+        display: none;
+        background: none;
+    }
+    .person-2{
+        display: none;
+        background: none;
+    }
+    .person-3{
+        display: none;
+        background: none;
+    }
+    .person-4{
+        display: none;
+        background: none;
+    }
+    /* CARD 4 */
+    .card-4{
+        display: none;
+    }
+    /* CARD 2 */
+    .card-2{
+        background: none;
+    }
+    .icon-card-2{
+        display: none;
+    }
+    .icon-number-card-2{
+        display: none;
+    }
+    .text-card-2{
+        display: none;
+    }
+    .icon-clock-card-2{
+        display: none;
+    }
+    /* CARD 8 */
+    .icon-card-8{
+        display: none;
+    }
+    .text-card-8{
+        display: none;
+    }
+    .card-6{
+        display: none;
+    }
+}
+/* END RESPONSIVE BANNER */
+
+@media only screen and (max-width: 600px){
+    .navbar-toggler{
+        margin-left: 200px;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .icon-section{
+        width: 70px;
+        height: 50px;
+    }
+    .icon-section img{
+        width: 20px;
+        height: 20px;
+    }
+    .icons-lock-section{
+        margin-left: -100px;
+        width: 70px;
+        height: 50px;
+    }
+    .icons-lock-section img{
+        width: 20px;
+        height: 20px;
+    }
+    .text-content-section{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .text-content-section h4{
+        font-size: 15px;
+    }
+    .text-content-section p{
+        font-size: 10px;
+    }
+    .text-content-icon-lock{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .text-content-icon-lock h4{
+        font-size: 15px;
+    }
+    .text-content-icon-lock p{
+        font-size: 10px;
+
+    }
+    .card-product-1{
+        display: none;
+    }
+    .content-text-right{
+    text-align: center;
+    margin-left: -5px;
+    }
+    .text-content h1{
+        font-size: 20px;
+    }
+    .text-content p{
+        font-size: 10px;
+        text-align: center;
+        margin-bottom: -100px;
+        margin-left: 100px;
+
+    } 
+    .section-text-center > .text-content{
+        margin-left: -600px;
+    }
+    .section-text-center > .text-content p {
+        margin-left: -20px;
+    } 
+    .ui-components-product-ft-2{
+       height: 550px;
+       margin-left: -20px;
+       width: 510px;
+    }
+    .card-1-content-ft-2{
+        height: 100px;
+        width: 200px;
+        margin-left: -50px;
+    }
+    .icon-card-1{
+        height: 40px;
+        width: 60px;
+
+    }
+    .icon-card-1 img {
+        height: 20px;
+        width: 20px;
+    }
+    .information-text-content-card-1 h3{
+        font-size: 10px;
+    }
+    .information-text-content-card-1 p{
+        font-size: 10px;
+    }
+    .icon-card-2-ft-2{
+        height: 70px;
+        margin-left: -3px;
+        width: 80px;
+    }
+    .card-8-ft-2{
+        display: none;
+    }
+    .card-7-ft-2{
+        display: none;
+    }
+    .nav-item{
+        z-index: 9999;
+     position: absolute;   
+    }
+}
+
+@media only screen and (max-width: 1200px){
+  
+    .navbar-toggler{
+        margin-left: 700px;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .icon-section{
+        width: 70px;
+        height: 50px;
+    }
+    .icon-section img{
+        width: 20px;
+        height: 20px;
+    }
+    .icons-lock-section{
+        margin-left: -100px;
+        width: 70px;
+        height: 50px;
+    }
+    .icons-lock-section img{
+        width: 20px;
+        height: 20px;
+    }
+    .text-content-section{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .text-content-section h4{
+        font-size: 15px;
+    }
+    .text-content-section p{
+        font-size: 10px;
+    }
+    .text-content-icon-lock{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .text-content-icon-lock h4{
+        font-size: 15px;
+    }
+    .text-content-icon-lock p{
+        font-size: 10px;
+
+    }
+    .card-product-1{
+        display: none;
+    }
+    .content-text-right{
+    text-align: center;
+    margin-left: -5px;
+    }
+    .text-content h1{
+        font-size: 20px;
+    }
+    .text-content p{
+        font-size: 10px;
+        text-align: center;
+        margin-bottom: -100px;
+        margin-left: 100px;
+
+    } 
+    .section-text-center > .text-content{
+        margin-left: -600px;
+    }
+    .section-text-center > .text-content p {
+        margin-left: -20px;
+    } 
+    .ui-components-product-ft-2{
+       height: 550px;
+       margin-left: -5px;
+       width: 850px;
+    }
+    .card-1-content-ft-2{
+        height: 100px;
+        width: 200px;
+        margin-left: -50px;
+    }
+    .icon-card-1{
+        height: 40px;
+        width: 60px;
+
+    }
+    .icon-card-1 img {
+        height: 20px;
+        width: 20px;
+    }
+    .information-text-content-card-1 h3{
+        font-size: 10px;
+    }
+    .information-text-content-card-1 p{
+        font-size: 10px;
+    }
+    .icon-card-2-ft-2{
+        height: 70px;
+        margin-left: -3px;
+        width: 80px;
+    }
+
+}
+
+/* pop up */
+.popup-section-3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+
+
+}
+.popup-about-content-section-3{
+    color: white;
+    height: 450px;
+    width: 650px;
+    background: #234CAD;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+}
+.close-section-3{
+    position: absolute;
+    left: 600px;
+    cursor: pointer;
+}
+.popup-item-section-3 {
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+.popup-img img {
+    width: 154px;
+    height: 209px;
+    border-radius: 10px;
+}
+.popup-text-section-3 {
+    color: white;
+    height: 150px;
+    width: 400px;
+}
+.popup-text-section-3 p {
+    padding: 5px;
+}
+.popup-description-section-3{
+    color: white;
+    position: absolute;
+    width: 540px;
+    top:150px;
+    height: 110px;
+}
+.popup-description-section-3 p{
+    font-size: 15px;
+}
+
+
+
+.popup-pricing{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+}
+.popup-content-pricing{
+    color: white;
+    height: 450px;
+    width: 650px;
+    background: #234CAD;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+}
+.close-pricing{
+    position: absolute;
+    left: 600px;
+    cursor: pointer;
+}
+.popup-item-pricing {
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+.popup-img img {
+    width: 154px;
+    height: 209px;
+    border-radius: 10px;
+}
+.popup-text-pricing {
+    color: white;
+    height: 150px;
+    width: 400px;
+}
+.popup-text-pricing p {
+    padding: 5px;
+}
+.popup-description-pricing{
+    color: white;
+    position: absolute;
+    width: 540px;
+    top:150px;
+    height: 110px;
+}
+.popup-description-pricing p{
+    font-size: 15px;
+}
+
+.popup-pricing-2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+}
+.popup-content-pricing-2{
+    color: white;
+    height: 450px;
+    width: 650px;
+    background: #234CAD;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+}
+.close-pricing-2{
+    position: absolute;
+    left: 600px;
+    cursor: pointer;
+}
+.popup-item-pricing-2 {
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+.popup-img img {
+    width: 154px;
+    height: 209px;
+    border-radius: 10px;
+}
+.popup-text-pricing-2 {
+    color: white;
+    height: 150px;
+    width: 400px;
+}
+.popup-text-pricing-2 p {
+    padding: 5px;
+}
+.popup-description-pricing-2{
+    color: white;
+    position: absolute;
+    width: 540px;
+    top:150px;
+    height: 110px;
+}
+.popup-description-pricing-2 p{
+    font-size: 15px;
+}
+
+
+.popup-pricing-3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+}
+.popup-content-pricing-3{
+    color: white;
+    height: 450px;
+    width: 650px;
+    background: #234CAD;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+}
+.close-pricing-3{
+    position: absolute;
+    left: 600px;
+    cursor: pointer;
+}
+.popup-item-pricing-3 {
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+.popup-img img {
+    width: 154px;
+    height: 209px;
+    border-radius: 10px;
+}
+.popup-text-pricing-3 {
+    color: white;
+    height: 150px;
+    width: 400px;
+}
+.popup-text-pricing-3 p {
+    padding: 5px;
+}
+.popup-description-pricing-3{
+    color: white;
+    position: absolute;
+    width: 540px;
+    top:150px;
+    height: 110px;
+}
+.popup-description-pricing-3 p{
+    font-size: 15px;
+}
+
+#msg{
+    color: #234CAD;
+    margin-top: 10px;
+    display: block;
 }

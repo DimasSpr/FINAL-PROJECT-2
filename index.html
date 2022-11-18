@@ -13,27 +13,27 @@
   <nav class="navbar navbar-expand-lg bg-transparent ">
     <div class="container">
       <a class="navbar-brand" href="#">logo</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item mx-3">
-            <a class="nav-link "href="#">Home</a>
+            <a class="nav-link "href="#banner-container">Home</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link" href="#">Product</a>
+            <a class="nav-link" href="#product">Product</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#section">About</a>
           </li>
           <li class="nav-item mx-3  ">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact-us">Contact</a>
           </li>
         </ul>
         <div>
-          <button type="button" class="btn-primary">Primary</button>
-          <button type="button" class="btn-secondary">Secondary</button>
+          <button type="button" class="btn-primary">Login</button>
+          <button type="button" class="btn-secondary">Sign in</button>
         </div>
       </div>
     </div>
@@ -47,8 +47,29 @@
             <div class="col-md-5 ms-5 mt-5">
               <h1>Business Communications Reinvented</h1>
               <p class="mt-4">Start communicating with your business team more efficiently with our app.</p>
-              <button class="btn-succes mt-4">Get The App</button>
+              <button class="btn-succes mt-4" id="btn-succes">Get The App</button>
             </div>
+            <!-- Pop up about -->
+            <div class="popup-about">
+              <div class="popup-about-content">
+                  <img src="assets/icon/Close.png" alt="Close" class="close-about">
+              </div>
+              <div class="popup-item">
+                  <div class="popup-text">
+                     <p>Business Communications Reinvented</p>
+                  </div>
+              </div>
+              <div class="popup-description">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
+                       dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem 
+                       sollicitudin lacus, ut interdum tellus elit sed risus. 
+                       Maecenas eget condimentum velit, sit amet feugiat lectus. 
+                       Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                       Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. 
+                       Suspendisse ac rhoncus nisl, eu tempo </p>
+              </div>
+          </div>
+          <!-- End pop up about -->
             <!-- ITEM 1 -->
             <div class="banner-item col mt-3">
               <div class="icon-first">
@@ -161,8 +182,9 @@
         </div>
   </section>
        <!------------------------------------------------------END BANNER---------------------------------->
+       
         <!------------------------------------------------------SECTION---------------------------------->
-  <div class="container website-elements-section-icon">
+  <div class="container website-elements-section-icon" id="section">
         <div class="section d-flex">
           <div class="item-1 d-flex ">
             <div class="icon-section">
@@ -255,25 +277,46 @@
               </div>
             </div>
           </div>
+             <!-- Pop up about -->
+             <div class="popup-text-right">
+              <div class="popup-text-right-content">
+                  <img src="assets/icon/Close.png" alt="Close" class="close-text-right">
+              </div>
+              <div class="popup-item-text-right">
+                  <div class="text-right">
+                     <p>Business Communications Reinvented</p>
+                  </div>
+              </div>
+              <div class="popup-description-text-right">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
+                       dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem 
+                       sollicitudin lacus, ut interdum tellus elit sed risus. 
+                       Maecenas eget condimentum velit, sit amet feugiat lectus. 
+                       Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                       Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. 
+                       Suspendisse ac rhoncus nisl, eu tempo </p>
+              </div>
+          </div>
+          <!-- End pop up about -->
           <div class="content-text-right">
             <div class="text-content">
               <h1>Use our app to send messages to your team</h1>
-              <p class="text-start">We offer really easy communications for all businesses from small to large.</p>
+              <p class="text-start" >We offer really easy communications for all businesses from small to large.</p>
             </div>
-            <button class="btn-text-content">Get the app</button>
+            <button class="btn-text-content" id="text-right">Get the app</button>
           </div>
         </div>
   </div>
        <!------------------------------------------------------END PRODUCT----------------------------------> 
        <!------------------------------------------------------TEXT CENTER----------------------------------> 
-  <div class="website-elements-section-text-center">
+  <div class="website-elements-section-text-center" id="text-center">
         <div class="section-text-center">
           <div class="text-content">
             <h1>Transform your communications</h1>
             <p>Our mobile app is the only thing you need to change the way you communicate with your team</p>
           </div>
         </div>
-        <div class="content-product-ft-2">
+        <div class="content-product-ft-2" id="product">
           <div class="ui-components-product-ft-2 d-flex">
             <div class="card-1-ft-2">
               <div class="card-1-content-ft-2 d-flex">
@@ -401,14 +444,35 @@
        <!------------------------------------------------------END TEXT CENTER---------------------------------->
        <!----------------------------------------------------------SECTION 3------------------------------------>  
   <!-- section 3 -->
-  <div class="container">
+  <div class="container" id="section-3">
     <div class="about my-5">
         <div class="row">
             <div class="col about-text">
                 <h1 class="mx-5">Increase the efficiency within your company</h1>
                 <p class="mt-4 mx-5">Our app is the great way for you to start getting more tasks done.</p>
-                <button class="btn about-button rounded-pill mt-5 mx-5">Get The App</button>
+                <button class="btn about-button rounded-pill mt-5 mx-5" id="btn-section-3">Get The App</button>
             </div>
+              <!-- Pop up about -->
+              <div class="popup-section-3">
+                <div class="popup-about-content-section-3">
+                    <img src="assets/icon/Close.png" alt="Close" class="close-section-3">
+                </div>
+                <div class="popup-item-section-3">
+                    <div class="popup-text-section-3">
+                       <p>Business Communications Reinvented</p>
+                    </div>
+                </div>
+                <div class="popup-description-section-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
+                         dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem 
+                         sollicitudin lacus, ut interdum tellus elit sed risus. 
+                         Maecenas eget condimentum velit, sit amet feugiat lectus. 
+                         Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                         Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. 
+                         Suspendisse ac rhoncus nisl, eu tempo </p>
+                </div>
+            </div>
+            <!-- End pop up about -->
             <div class="col section-content">
                 <div class="row about-content">
                     <div class="col daily bg-white rounded-4">
@@ -506,7 +570,7 @@
             </div>
         </div>
     </div>
-    <div class="pricing">
+    <div class="pricing" id="pricing">
         <h1>Explore our simple pricing</h1>
         <p class="text">We offer one of the most competitive prices on the market for everyone.</p>
     </div>
@@ -515,37 +579,101 @@
             <p class="basic">Basic</p>
             <h1>$9</h1>
             <p class="month">Per month</p>
-            <button class="btn rounded-pill d-grid mx-auto">Learn more</button>
+            <button class="btn rounded-pill d-grid mx-auto" id="pricing-1">Learn more</button>
         </div>
+        <!-- Pop up about -->
+        <div class="popup-pricing">
+          <div class="popup-content-pricing">
+              <img src="assets/icon/Close.png" alt="Close" class="close-pricing">
+          </div>
+          <div class="popup-item-pricing">
+              <div class="popup-text-pricing">
+                 <p>Business Communications Reinvented</p>
+              </div>
+          </div>
+          <div class="popup-description-pricing">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
+                   dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem 
+                   sollicitudin lacus, ut interdum tellus elit sed risus. 
+                   Maecenas eget condimentum velit, sit amet feugiat lectus. 
+                   Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                   Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. 
+                   Suspendisse ac rhoncus nisl, eu tempo </p>
+          </div>
+      </div>
+      <!-- End pop up about -->
+       <!-- Pop up about -->
+       <div class="popup-pricing-2">
+        <div class="popup-content-pricing-2">
+            <img src="assets/icon/Close.png" alt="Close" class="close-pricing-2">
+        </div>
+        <div class="popup-item-pricing-2">
+            <div class="popup-text-pricing-2">
+               <p>Business Communications Reinvented</p>
+            </div>
+        </div>
+        <div class="popup-description-pricing-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
+                 dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem 
+                 sollicitudin lacus, ut interdum tellus elit sed risus. 
+                 Maecenas eget condimentum velit, sit amet feugiat lectus. 
+                 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                 Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. 
+                 Suspendisse ac rhoncus nisl, eu tempo </p>
+        </div>
+    </div>
+    <!-- End pop up about -->
+     <!-- Pop up about -->
+     <div class="popup-pricing-3">
+      <div class="popup-content-pricing-3">
+          <img src="assets/icon/Close.png" alt="Close" class="close-pricing-3">
+      </div>
+      <div class="popup-item-pricing-3">
+          <div class="popup-text-pricing-3">
+             <p>Business Communications Reinvented</p>
+          </div>
+      </div>
+      <div class="popup-description-pricing-3">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
+               dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem 
+               sollicitudin lacus, ut interdum tellus elit sed risus. 
+               Maecenas eget condimentum velit, sit amet feugiat lectus. 
+               Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+               Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. 
+               Suspendisse ac rhoncus nisl, eu tempo </p>
+      </div>
+  </div>
+  <!-- End pop up about -->
         <div class="col second-price">
             <p class="basic">Premium</p>
             <h1>$29</h1>
             <p class="month">Per month</p>
-            <button class="btn rounded-pill d-grid mx-auto">Get started</button>
+            <button class="btn rounded-pill d-grid mx-auto" id="pricing-2">Get started</button>
         </div>
         <div class="col third-price">
             <p class="basic">Enterprise</p>
             <h1>$129</h1>
             <p class="month">Per month</p>
-            <button class="btn rounded-pill d-grid mx-auto">Learn more</button>
+            <button class="btn rounded-pill d-grid mx-auto" id="pricing-3">Learn more</button>
         </div>
     </div>
   </div>
 <!-- end section 3 -->
-  <div class="container">
+  <div class="container" id="contact-us">
     <div class="last-section">
         <h1>Sign up to our newsletter</h1>
         <p class="text-section">Receive latest news, updates, discounts and many other things every week.</p>
-        <form class="email-input justify-content-center row g-3">
+        <form class="email-input justify-content-center row g-3" name="submit-to-google-sheet">
             <input class="col-auto form-control" type="text" placeholder="Enter your email address">
             <button class="col-auto btn button-input">
                 <img class="img-button" src="../assets/icon/button.png" alt="">
             </button>
         </form>
+        <span id="msg"></span>
     </div>
   </div>
   <footer>
-    <div class="footer row">
+    <div class="footer row" id="footer">
         <div class="col startup">
             <h4>Startup.io</h4>
             <small>© 2020 - All rights reserved</small>
@@ -575,4 +703,5 @@
     </div>
   </footer>     
 </body>
+<script src="js/main.js"></script>
 </html>
